@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Packet Name="Msg_Heart_Beat" PldLen="01" SysId="01" CompId="255" MsgId="00" Label="心跳包" Detail="心跳包"> 
+  <Parameters>
+    <Parameter Name="Version" Tsource="UInt8"  Ttarget="UInt8"  Offset="6"  Length="1"  Scalar="1" Unit="-" Label="版本号"  Detail="0x03"/>
+  </Parameters>
+</Packet>

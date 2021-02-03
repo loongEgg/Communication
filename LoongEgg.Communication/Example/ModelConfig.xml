@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<ModelConfig Name="Test_Aircraft"  Stx="254" Label="测试飞机" Detail="测试模型">
+  <PacketConfigPaths>
+    <Path>\\Example\\PacketConfigs\\Msg_Heart_Beat.xml</Path>
+    <Path>\\Example\\PacketConfigs\\Msg_System_Status.xml</Path>
+  </PacketConfigPaths>
+</ModelConfig>

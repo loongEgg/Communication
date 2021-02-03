@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Packet Name="Msg_System_Status" PldLen="12" SysId="01" CompId="255" MsgId="01" Label="系统状态包" Detail="心跳包">
+  <Parameters>
+    <Parameter Name="Status" Tsource="UInt8"   Ttarget="Enum"  Offset="6"   Length="1"  Scalar="1" Unit="-" Label="系统状态"     Detail="0:Unknown; 1:Normal; 2:Fault"/>
+    <Parameter Name="DevOn"  Tsource="UInt16"  Ttarget="Flag"  Offset="8"   Length="2"  Scalar="1" Unit="-" Label="设备在线状态"  Detail="0:PowerOn; 1:ActOn; 2:LightOn"/>
+    <Parameter Name="RevOn"  Tsource="UInt16"  Ttarget="Flag"  Offset="10"  Length="2"  Scalar="1" Unit="-" Label="反逻辑状态"   Detail="0:PowerOn; 1:ActOn; 2:LightOn" IsRevFlag="true"/>
+  </Parameters>
+</Packet>
